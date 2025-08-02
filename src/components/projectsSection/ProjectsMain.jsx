@@ -21,10 +21,18 @@ const ProjectsMain = () => {
       link: "https://event-management-api-nine.vercel.app/",
       github:"https://github.com/Jaswant-Yadav/Event-Management-API.git"
     },
+     {
+      name: "Wellness-Session-Platform",
+      year: " A secure full-stack platform where users can create, save drafts, and publish wellness sessions with metadata including tags and JSON resource links.",
+      align: "right",
+      image: "images/library.webp",
+      link: "https://wellness-session-platform-psi.vercel.app/",
+      github:"https://github.com/Jaswant-Yadav/Wellness-Session-Platform.git"
+    },
     {
       name: "Finicial Statement Tracker",
       year: "The Financial Statements Tracker is a web-based application designed to help individuals track and manage their financial data.",
-      align: "right",
+      align: "left",
       image: "images/website.jpg",
       link: "https://front-expense.vercel.app/",
       github:"https://github.com/Jaswant-Yadav/Financial-Tracker.git"
@@ -32,7 +40,7 @@ const ProjectsMain = () => {
     {
       name: "E‑Dashboard",
       year: "A lightweight E-Dashboard with full CRUD functionality to manage manual product list. Built with a clean, responsive UI for easy interaction and real-time updates.",
-      align: "left",
+      align: "right",
       image: "images/library.webp",
       link: "https://github.com/Jaswant-Yadav/E-Dashboard.git",
       github:"https://github.com/Jaswant-Yadav/E-Dashboard.git"
