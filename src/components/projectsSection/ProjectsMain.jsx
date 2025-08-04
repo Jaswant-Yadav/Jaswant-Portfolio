@@ -5,10 +5,18 @@ import { fadeIn } from "../../framerMotion/variants";
 import { BsFillArrowUpRightCircleFill, BsGithub } from "react-icons/bs";
 const ProjectsMain = () => {
   const projects = [
+     {
+      name: "Mini LinkdIn",
+      year: "A mini full-stack LinkedIn-like community web application that allows users to register, log in, create public posts, view others' profiles, and manage their own posts.",
+      align: "right",
+      image: "images/library.webp",
+      link: "https://mini-linked-in-flax.vercel.app/",
+      github:"https://github.com/Jaswant-Yadav/Mini-LinkdeIn.git"
+    },
     {
       name: "Mini Venue Booking Dashboard",
       year: "A full-stack web application that allows venue owners to manage their venues and users to browse and book available venues.",
-      align: "right",
+      align: "left",
       image: "images/library.webp",
       link: "https://front-end-seven-gilt.vercel.app/",
       github:"https://github.com/Jaswant-Yadav/Mini-Venue-Booking-Dashboard"
@@ -16,7 +24,7 @@ const ProjectsMain = () => {
     {
       name: "Event Management API",
       year: "A full-stack web application that allows users to create, register, cancel register user and manage events.",
-      align: "left",
+      align: "right",
       image: "images/website-img-1.jpg",
       link: "https://event-management-api-nine.vercel.app/",
       github:"https://github.com/Jaswant-Yadav/Event-Management-API.git"
@@ -24,7 +32,7 @@ const ProjectsMain = () => {
      {
       name: "Wellness-Session-Platform",
       year: " A secure full-stack platform where users can create, save drafts, and publish wellness sessions with metadata including tags and JSON resource links.",
-      align: "right",
+      align: "left",
       image: "images/library.webp",
       link: "https://wellness-session-platform-psi.vercel.app/",
       github:"https://github.com/Jaswant-Yadav/Wellness-Session-Platform.git"
@@ -32,7 +40,7 @@ const ProjectsMain = () => {
     {
       name: "Finicial Statement Tracker",
       year: "The Financial Statements Tracker is a web-based application designed to help individuals track and manage their financial data.",
-      align: "left",
+      align: "right",
       image: "images/website.jpg",
       link: "https://front-expense.vercel.app/",
       github:"https://github.com/Jaswant-Yadav/Financial-Tracker.git"
@@ -40,7 +48,7 @@ const ProjectsMain = () => {
     {
       name: "E‑Dashboard",
       year: "A lightweight E-Dashboard with full CRUD functionality to manage manual product list. Built with a clean, responsive UI for easy interaction and real-time updates.",
-      align: "right",
+      align: "left",
       image: "images/library.webp",
       link: "https://github.com/Jaswant-Yadav/E-Dashboard.git",
       github:"https://github.com/Jaswant-Yadav/E-Dashboard.git"
